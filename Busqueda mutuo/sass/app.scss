@@ -1,0 +1,35 @@
+@import 'reset/variables', 'reset/mixims', 'reset/reset', 'reset/keyframes';
+.carrousel{
+    width: 90% ;
+    max-width: 120em;
+    padding: 2em;
+    @include neo (1, 1em , 1em);
+    }
+    .carrousel .grande{
+    width: 400%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    @include neo (1, 1em , 1em);
+    }
+    .carrousel .img{
+    width: calc(100% / 4);
+    @include neo (1, 1em , 1em);
+    }
+    .carrousel.puntos{
+    width: 100%;
+    background-color: #242624;
+    padding: 1em;
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .carrousel .punto{
+    width: 2em;
+    height: 2em;
+    
+    }
